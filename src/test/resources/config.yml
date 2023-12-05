@@ -1,0 +1,4 @@
+baseUrl: https://api-uat.payeah.io/
+apiKey: 001
+rsaPrivateKey: MIIJ*****yyGF
+payeahRsaPublicKey: MIICIj*****EAAQ==
