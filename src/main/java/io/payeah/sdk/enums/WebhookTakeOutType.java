@@ -10,6 +10,7 @@ import lombok.Getter;
  **/
 @Getter
 public enum WebhookTakeOutType {
+    NULL(-2,"Judge by type of webhook"),
     NONE(-1, "No account impact"),
     VA(1, "Va"),
     CARD(2, "Card"),
@@ -25,14 +26,14 @@ public enum WebhookTakeOutType {
 
     public static WebhookTakeOutType fromCode(Integer code) {
         if (code == null) {
-            return NONE;
+            return NULL;
         }
         for (WebhookTakeOutType type : WebhookTakeOutType.values()) {
             if (type.getCode() == code) {
                 return type;
             }
         }
-        return NONE;
+        return NULL;
     }
 
     public boolean isVa() {
