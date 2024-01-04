@@ -12,6 +12,14 @@ import java.util.Arrays;
  **/
 @Getter
 public enum CardTransFeeType {
+
+    REVERSAL_PROCESSING_FEE(91, "Reversal processing fee"),
+    MERCHANT_FORCE_SETTLEMENT(92, "Merchant force settlement"),
+    EXCEPTION_SETTLEMENT(93, "Exception settlement"),
+    AFTER_REVERSAL_SETTLEMENT(94, "After reversal settlement"),
+    SETTLEMENT_EXCHANGE_DIFFERENCE(95, "Settlement exchange difference"),
+    MINOR_TRANSACTION_PROCESSING_FEE(96, "Minor transaction processing fee"),
+
     CROSS_FEE(97, "Cross-border handling fee"),
     REFUND_FEE(98, "Transaction refund processing fee"),
     PROCESSING_FEE(99, "Transaction processing fee");
