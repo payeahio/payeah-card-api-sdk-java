@@ -17,7 +17,7 @@ public class ThreadLocalUtils {
         return simpleDateFormat;
     });
     public static ThreadLocal<SimpleDateFormat> SIMPLE_DATEFORMAT_REQUEST_THREADLOCAL = ThreadLocal.withInitial(() -> {
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         simpleDateFormat.setTimeZone(TimeZone.getTimeZone(ZoneId.of("Asia/Shanghai")));
         return simpleDateFormat;
     });

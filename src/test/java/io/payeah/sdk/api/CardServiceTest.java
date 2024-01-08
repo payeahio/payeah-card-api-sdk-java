@@ -92,7 +92,7 @@ public class CardServiceTest {
     @Test
     public void getCardInfo() {
         CardInfoQry cardInfoQry = new CardInfoQry();
-        cardInfoQry.setCardId("2312041349000014743");
+        cardInfoQry.setCardId("2401081008000015635");
         Call<CardInfoCO> call = cardService.getCardInfo(cardInfoQry);
         CardInfoCO execute = ServiceExecutor.execute(call);
         assertNotNull(execute);
