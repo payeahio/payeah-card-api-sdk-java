@@ -15,14 +15,14 @@ public class AccountBalanceCO {
      * Numeric type
      * Certificate ID provided by GEP to the merchant
      */
-    private Long certificateId;
+    private String certificateId;
 
     /**
      * [Mandatory] User Number
      * Numeric type
      * Unique number provided by GEP to the merchant
      */
-    private Long userNo;
+    private String userNo;
 
     /**
      * [Mandatory] Currency

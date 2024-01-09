@@ -17,7 +17,7 @@ public class CardInfoCO {
      * Numeric type
      * User Number as assigned by the service system
      */
-    private Long userNo;
+    private String userNo;
 
     /**
      * [Mandatory] Card Number
@@ -31,7 +31,7 @@ public class CardInfoCO {
      * Numeric type
      * Card CVV (3 digits)
      */
-    private Integer cardVerifyNo;
+    private String cardVerifyNo;
 
     /**
      * [Optional] Card Alias
