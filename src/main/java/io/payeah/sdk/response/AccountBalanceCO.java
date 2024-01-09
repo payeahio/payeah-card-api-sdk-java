@@ -10,19 +10,6 @@ import lombok.Data;
  **/
 @Data
 public class AccountBalanceCO {
-    /**
-     * [Mandatory] Certificate ID
-     * Numeric type
-     * Certificate ID provided by GEP to the merchant
-     */
-    private String certificateId;
-
-    /**
-     * [Mandatory] User Number
-     * Numeric type
-     * Unique number provided by GEP to the merchant
-     */
-    private String userNo;
 
     /**
      * [Mandatory] Currency
